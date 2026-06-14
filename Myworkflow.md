@@ -1,6 +1,6 @@
 # Quy trình làm việc — Business Analyst công ty E-commerce
 
-> Mô tả luồng làm việc thực tế của tôi từ lúc nhận requirement đến khi tính năng được nghiệm thu. Mỗi bước nhận **input** từ bước trước và tạo ra **output** làm đầu vào cho bước sau.
+> Mô tả luồng làm việc thực tế của em từ lúc nhận requirement đến khi tính năng được nghiệm thu. Mỗi bước nhận **input** từ bước trước và tạo ra **output** làm đầu vào cho bước sau.
 
 ---
 
@@ -31,7 +31,7 @@
         Review/UAT trên staging → Present stakeholder các tính năng UAT done
 ```
 
-**Đọc mũi tên:** `A → B` nghĩa là B cần output của A làm input.
+**Đọc mũi tên:** 1 → 6
 
 ---
 
@@ -57,10 +57,8 @@
 | Artifact | Vẽ ở bước | Mục đích |
 |----------|-----------|----------|
 | **Wireframe** | Bước 3 (đề xuất phương án) | Phác nhanh để PO hình dung luồng & chốt hướng. Vẽ trên **Figma**, gần đây chuyển dần sang **HTML** để click thử được |
-| **UI/UX Design (hi-fi)** | Bước 6 | Bản thiết kế hoàn chỉnh do Designer dựng, làm cơ sở để viết SRS |
+| **UI/UX Design** | Bước 6 | Bản thiết kế hoàn chỉnh do Designer dựng, làm cơ sở để viết SRS, gần đây chuyển thử lên Github tạo file .md để dev có thể đưa AI đọc |
 | **Activity diagram** | Bước 7 (trong SRS) | Mô tả luồng xử lý của use case (các nhánh quyết định, điều kiện) |
-
-> **Thứ tự fidelity:** Wireframe (lo-fi, bước 3) → UI/UX design (hi-fi, bước 6) → mô tả + activity diagram trong SRS (bước 7).
 
 ---
 
@@ -69,4 +67,5 @@
 - **Jira** — quản lý User Story & Acceptance Criteria
 - **Figma / HTML** — wireframe và prototype
 - **SRS (.docx)** — tài liệu đặc tả chính, gồm mô tả màn hình + use case + rule + activity diagram
+- **Github .md** - chuyển dần lên Github đưa rule + use case
 - **Staging** — môi trường để review/UAT trước khi nghiệm thu
